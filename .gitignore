@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# 环境变量 & 密钥
+.env
+.env.*
+env.trading
+.license
+.trial
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# 旧文件（不需要上传）
+_archive/
+_tmp/
+*.png
+*.pdf
+*.docx
+*.zip
+量化资料/
+新建*
+
+# bat 脚本（本地用）
+生成授权码.bat
+打包发布.bat
+发布版_*/
+
+# Streamlit secrets（本地的不上传）
+# .streamlit/secrets.toml
